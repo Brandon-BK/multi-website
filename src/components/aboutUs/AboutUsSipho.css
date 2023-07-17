@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=M+PLUS+1:wght@400;500&family=Orbitron:wght@400;500;600&family=Oswald:wght@300;400&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.about {
+  /* border: 1px solid red; */
+  /* height: 100vh; */
+  padding: 20px 40px;
+}
+
+.about h2 {
+  margin: 10px 0;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+.about-content {
+  /* border: 1px solid green; */
+  align-items: center;
+  display: flex;
+}
+
+.about-content .img {
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px black;
+  height: 70vh;
+  width: 40%;
+  background: url("/public/Harvey.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-content .img:hover {
+  background: url("/public/2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.about p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.text-about {
+  /* border: 1px solid red; */
+  width: 60%;
+  padding: 20px 40px;
+}
+
+.text-about p {
+  /* border: 1px solid green; */
+  
+  padding: 10px;
+  line-height: 17px;
+  font-size: 14px;
+  text-align: start;
+}
